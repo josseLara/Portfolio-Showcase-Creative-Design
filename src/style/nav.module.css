@@ -28,12 +28,15 @@
      font-weight: 700;
      cursor: pointer;
 }
-
-.nav li:hover {
+.nav li a{
+     text-decoration: none;
+     color: #000;
+}
+.nav li:hover a{
      color: #FFEC8D;
 }
 .navActive{
-     color: #FFEC8D;
+     color: #FFEC8D !important;
      position: relative;
 }
 .navActive::before{

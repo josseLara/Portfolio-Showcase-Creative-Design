@@ -67,10 +67,10 @@ function Nav( { mainRef } ) {
           <div className={style.nav}>
                <Lottie animationData={logo} className={style.logo} />
                <ul style={showAnim} key={showNav} >
-                    <li className={linkmenu1 ? style.navActive : ''}>About Us</li>
-                    <li className={linkmenu2 ? style.navActive : ''}>Services</li>
-                    <li className={linkmenu3 ? style.navActive : ''}>Projects</li>
-                    <li className={linkmenu4 ? style.navActive : ''}>Contact</li>
+                    <li><a href="#about" className={linkmenu1 ? style.navActive : ''}> About Us</a></li>
+                    <li><a href="#services"  className={linkmenu2 ? style.navActive : ''}>Services</a></li>
+                    <li><a href="#proyects" className={linkmenu3 ? style.navActive : ''}>Projects</a></li>
+                    <li><a href="#contact" className={linkmenu4 ? style.navActive : ''}>Contact</a></li>
                </ul>
                <AiOutlineMenu className={style.nav__btnToggle} onClick={() => setShowNav( !showNav )} />
           </div>

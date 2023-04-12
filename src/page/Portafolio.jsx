@@ -38,7 +38,7 @@ function Portafolio() {
                <Nav mainRef={mainRef} />
                <main ref={mainRef}>
                     {/* home */}
-                    <div className={style.home}>
+                    <div className={style.home} id='about'>
                          <div className={style.home__description}>
                               <span className={style.description__title}>Front-end developer</span>
                               <h1>WE ARE <span>CREATIVE</span> DESIGN AGENCY</h1>
@@ -54,7 +54,7 @@ function Portafolio() {
                          <img src="/persona.png" alt="person" />
                     </div>
                     {/* services */}
-                    <div className={style.services}>
+                    <div className={style.services} id='services'>
                          <div className={style.services__description}>
                               <span className={style.title}>Our Sevices</span>
                               <h1>What We <span>Do</span></h1>
@@ -119,7 +119,7 @@ function Portafolio() {
                          </div>
                     </div>
                     {/*  */}
-                    <div className={style.proyects}>
+                    <div className={style.proyects} id='proyects'>
                          <div className={style.proyects__description}>
                               <h1>My <span>Projects</span></h1>
                          </div>
@@ -130,7 +130,7 @@ function Portafolio() {
                          </ul>
                     </div>
                     {/* contact */}
-                    <div className={style.contact}>
+                    <div className={style.contact} id='contact'>
                          <div className={style.home__description}>
                               <span className={style.description__title}>Front-end developer</span>
                               <h1>CONTACT <span>ME</span></h1>
